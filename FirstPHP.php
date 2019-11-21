@@ -24,6 +24,8 @@ $UserEmail="";
 $UserGender="";
 $UserComment="";
 
+#this line is written on my main dev pc but other lines are written on my work laptop
+
 
     if($_SERVER["REQUEST_METHOD"]=="POST"){
         if (empty($_POST["UserName"])){
